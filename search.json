@@ -1,9 +1,268 @@
 [
   {
+    "objectID": "Avaliacoes/Avaliacao01Exemplo.html",
+    "href": "Avaliacoes/Avaliacao01Exemplo.html",
+    "title": "Avaliação 1 — Título",
+    "section": "",
+    "text": "Duração: 00 minutos.\nConsulta: permitida/não permitida a…\nEntrega: formato e prazo."
+  },
+  {
+    "objectID": "Avaliacoes/Avaliacao01Exemplo.html#instruções",
+    "href": "Avaliacoes/Avaliacao01Exemplo.html#instruções",
+    "title": "Avaliação 1 — Título",
+    "section": "",
+    "text": "Duração: 00 minutos.\nConsulta: permitida/não permitida a…\nEntrega: formato e prazo."
+  },
+  {
+    "objectID": "Avaliacoes/Avaliacao01Exemplo.html#questões",
+    "href": "Avaliacoes/Avaliacao01Exemplo.html#questões",
+    "title": "Avaliação 1 — Título",
+    "section": "Questões",
+    "text": "Questões\n\n(peso 0,0) Enunciado da primeira questão.\n(peso 0,0) Enunciado da segunda questão.\n(peso 0,0) Enunciado da terceira questão, com aplicação prática."
+  },
+  {
+    "objectID": "Avaliacoes/Avaliacao01Exemplo.html#critérios-de-avaliação",
+    "href": "Avaliacoes/Avaliacao01Exemplo.html#critérios-de-avaliação",
+    "title": "Avaliação 1 — Título",
+    "section": "Critérios de avaliação",
+    "text": "Critérios de avaliação\n\n\n\nQuestão\nPeso\nCritério\n\n\n\n\n1\n0,0\ndescreva o que será avaliado\n\n\n2\n0,0\ndescreva o que será avaliado\n\n\n3\n0,0\ndescreva o que será avaliado"
+  },
+  {
+    "objectID": "Notas/Aula01Exemplo.html#estrutura-de-um-slide",
+    "href": "Notas/Aula01Exemplo.html#estrutura-de-um-slide",
+    "title": "Título da Aula",
+    "section": "Estrutura de um slide",
+    "text": "Estrutura de um slide\nCada slide começa com ##. Separe slides com --- em linha própria.\n\nTexto direto e impessoal (evite a primeira pessoa).\nPouco texto por slide; uma ideia central por slide.\nListas curtas, como esta.\n\n\n\n\n\n\n\nNote\n\n\nCallout de nota. Use para observações; não abuse — no máximo um por slide."
+  },
+  {
+    "objectID": "Notas/Aula01Exemplo.html#duas-colunas",
+    "href": "Notas/Aula01Exemplo.html#duas-colunas",
+    "title": "Título da Aula",
+    "section": "Duas colunas",
+    "text": "Duas colunas\n\n\nA coluna da esquerda recebe a formulação ou o texto.\n\\[f(x) = \\int_a^b g(t)\\,dt\\]\n\nA coluna da direita recebe a figura, o resultado ou um segundo bloco.\n\nItem A\nItem B\n\n\n\n\n\n\n\n\nImportant\n\n\nControle o volume de conteúdo: texto ou código em excesso vaza do slide. Prefira dividir em dois slides a encolher demais a fonte."
+  },
+  {
+    "objectID": "Notas/Aula01Exemplo.html#matemática",
+    "href": "Notas/Aula01Exemplo.html#matemática",
+    "title": "Título da Aula",
+    "section": "Matemática",
+    "text": "Matemática\nEquações em destaque com $$ ... $$:\n\\[\\frac{d}{dx}\\left[\\,x^n\\,\\right] = n\\,x^{n-1}\\]\nE em linha, com $ ... $: a condição \\(|g'(x^{*})| &lt; 1\\) garante convergência local.\nSistemas e matrizes:\n\\[A = \\begin{bmatrix} a_{11} & a_{12} \\\\ a_{21} & a_{22} \\end{bmatrix}, \\qquad A\\mathbf{x} = \\mathbf{b}\\]"
+  },
+  {
+    "objectID": "Notas/Aula01Exemplo.html#exemplo-passo-a-passo",
+    "href": "Notas/Aula01Exemplo.html#exemplo-passo-a-passo",
+    "title": "Título da Aula",
+    "section": "Exemplo passo a passo",
+    "text": "Exemplo passo a passo\nProblema. Enuncie o exemplo em uma frase.\nPasso 1. Primeira manipulação:\n\\[x_{k+1} = x_k - \\frac{f(x_k)}{f'(x_k)}\\]\nPasso 2. Substituição dos valores e resultado:\n\\[x_1 = 2 - \\frac{f(2)}{f'(2)} = 2{,}0945\\ldots\\]"
+  },
+  {
+    "objectID": "Notas/Aula01Exemplo.html#citações-bibliográficas",
+    "href": "Notas/Aula01Exemplo.html#citações-bibliográficas",
+    "title": "Título da Aula",
+    "section": "Citações bibliográficas",
+    "text": "Citações bibliográficas\nCite uma fonte listada em Referencias.bib com @chave: o método iterativo do exemplo anterior remonta a Newton (1687).\nVárias citações juntas: (Newton 1687; Boyce and DiPrima 2020).\n\n\n\n\n\n\nTip\n\n\nA lista completa das referências citadas é gerada automaticamente no slide ## Referências, ao final da aula."
+  },
+  {
+    "objectID": "Notas/Aula01Exemplo.html#código-abas-para-várias-linguagens",
+    "href": "Notas/Aula01Exemplo.html#código-abas-para-várias-linguagens",
+    "title": "Título da Aula",
+    "section": "Código (abas para várias linguagens)",
+    "text": "Código (abas para várias linguagens)\n\nPythonMATLAB\n\n\nimport numpy as np\n\ndef newton(f, df, x0, tol=1e-12, nmax=50):\n    x = x0\n    for _ in range(nmax):\n        x_new = x - f(x) / df(x)\n        if abs(x_new - x) &lt; tol:\n            return x_new\n        x = x_new\n    return x\n\n\nfunction x = newton(f, df, x0, tol, nmax)\n    x = x0;\n    for k = 1:nmax\n        x_new = x - f(x) / df(x);\n        if abs(x_new - x) &lt; tol, x = x_new; return; end\n        x = x_new;\n    end\nend\n\n\n\n\n\n\n\n\n\nTip\n\n\nPara uma única linguagem, omita o panel-tabset e use apenas um bloco ```python."
+  },
+  {
+    "objectID": "Notas/Aula01Exemplo.html#figura-em-tikz",
+    "href": "Notas/Aula01Exemplo.html#figura-em-tikz",
+    "title": "Título da Aula",
+    "section": "Figura em TikZ",
+    "text": "Figura em TikZ\nDiagramas e esquemas ficam em imgs/tikz/*.tikz e entram por \\input. Atenção: nos chunks {tikz}, as opções começam com %| (comentário LaTeX), nunca #|."
+  },
+  {
+    "objectID": "Notas/Aula01Exemplo.html#figura-de-dados-gerada-por-código",
+    "href": "Notas/Aula01Exemplo.html#figura-de-dados-gerada-por-código",
+    "title": "Título da Aula",
+    "section": "Figura de dados (gerada por código)",
+    "text": "Figura de dados (gerada por código)\nPara gráficos de dados, prefira gerar a imagem na própria linguagem (Matplotlib, etc.) e inseri-la, ou cole uma imagem em imgs/:\n\nLegenda da figura"
+  },
+  {
+    "objectID": "Notas/Aula01Exemplo.html#tabela",
+    "href": "Notas/Aula01Exemplo.html#tabela",
+    "title": "Título da Aula",
+    "section": "Tabela",
+    "text": "Tabela\n\n\n\nMétodo\nOrdem\nCusto\n\n\n\n\nA\n1\nbaixo\n\n\nB\n2\nmédio\n\n\nC\n4\nalto"
+  },
+  {
+    "objectID": "Notas/Aula01Exemplo.html#exercícios",
+    "href": "Notas/Aula01Exemplo.html#exercícios",
+    "title": "Título da Aula",
+    "section": "Exercícios",
+    "text": "Exercícios\n\nPrimeiro exercício proposto.\nSegundo exercício, com aplicação.\nTerceiro exercício, de implementação."
+  },
+  {
+    "objectID": "Notas/Aula01Exemplo.html#referências",
+    "href": "Notas/Aula01Exemplo.html#referências",
+    "title": "Título da Aula",
+    "section": "Referências",
+    "text": "Referências\n\n\nBoyce, William E., and Richard C. DiPrima. 2020. Equações Diferenciais Elementares e Problemas de Valores de Contorno. 11th ed. LTC.\n\n\nNewton, Isaac. 1687. “Philosophiæ Naturalis Principia Mathematica.” Royal Society."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Circuitos Elétricos II",
     "section": "",
-    "text": "Notas de aula de Circuitos Elétricos II - Circuitos em Corrente Alternada:\nTurma de 2024 da FEE - CAMTUC - UFPA.\n\nAula 0 - Plano de Ensino\nAula 1 - Tensões e Correntes Senoidais"
+    "text": "Notas de aula sobre análise de circuitos elétricos em regime permanente senoidal (CA): senoides, fasores, impedância e potência."
+  },
+  {
+    "objectID": "index.html#avaliações",
+    "href": "index.html#avaliações",
+    "title": "Circuitos Elétricos II",
+    "section": "Avaliações",
+    "text": "Avaliações\n\nAvaliação 1 - Avaliação Exemplo (modelo)"
+  },
+  {
+    "objectID": "Notas/Aula00PlanoEnsino.html#identificação",
+    "href": "Notas/Aula00PlanoEnsino.html#identificação",
+    "title": "Plano de Ensino",
+    "section": "Identificação",
+    "text": "Identificação\n\n\n\nCurso: Engenharia Elétrica\nCarga horária: 60 horas\nPré-requisitos: Circuitos Elétricos I\nFerramentas: números complexos, MATLAB/Octave ou Python (opcional)\n\n\nEmenta: Senoides e fasores. Relações tensão-corrente nos elementos passivos (resistor, indutor, capacitor) em regime permanente senoidal. Impedância e admitância. Leis de Kirchhoff e métodos sistemáticos de análise (nodal e de malhas) em circuitos CA. Teoremas de circuitos (superposição, Thévenin, Norton, máxima transferência de potência) aplicados a circuitos CA. Potência em corrente alternada: instantânea, média, reativa, aparente e complexa; fator de potência e sua correção."
+  },
+  {
+    "objectID": "Notas/Aula00PlanoEnsino.html#objetivos",
+    "href": "Notas/Aula00PlanoEnsino.html#objetivos",
+    "title": "Plano de Ensino",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nCapacitar o estudante a analisar circuitos elétricos lineares em regime permanente senoidal, utilizando a representação fasorial e o conceito de impedância.\nRepresentar sinais senoidais na forma fasorial e transitar entre os domínios do tempo e da frequência.\nDeterminar impedâncias e admitâncias de elementos R, L, C e de suas associações série/paralelo.\nAplicar leis de Kirchhoff e os métodos de análise nodal e de malhas em circuitos CA.\nAplicar os teoremas de circuitos (superposição, Thévenin, Norton, máxima transferência de potência) em regime CA.\nCalcular potências instantânea, média, reativa, aparente e complexa; determinar e corrigir o fator de potência de uma carga.\n\n\n\n\n\n\n\nNote\n\n\nCada unidade retoma, em regime CA, um conceito já visto em Circuitos Elétricos I para circuitos resistivos em regime contínuo (CC)."
+  },
+  {
+    "objectID": "Notas/Aula00PlanoEnsino.html#bibliografia",
+    "href": "Notas/Aula00PlanoEnsino.html#bibliografia",
+    "title": "Plano de Ensino",
+    "section": "Bibliografia",
+    "text": "Bibliografia\n\nSadiku & Alexander — Fundamentos de Circuitos Elétricos. 5ª ed. AMGH/Bookman (Sadiku and Alexander 2013).\nDorf & Svoboda — Introdução a Circuitos Elétricos. 9ª ed. LTC (Dorf and Svoboda 2019)."
+  },
+  {
+    "objectID": "Notas/Aula00PlanoEnsino.html#avaliação",
+    "href": "Notas/Aula00PlanoEnsino.html#avaliação",
+    "title": "Plano de Ensino",
+    "section": "Avaliação",
+    "text": "Avaliação\n\nAvaliação 1 — peso 5,0: prova individual e sem consulta, cobrindo senoides, fasores, impedância e leis circuitais em CA;\nAvaliação 2 — peso 5,0: prova individual e sem consulta, cobrindo teoremas de circuitos e potência em CA;\nListas de exercícios — atividade formativa (não somativa), uma por unidade, como preparação para as avaliações.\n\n\\[N_f = \\text{Avaliação 1} + \\text{Avaliação 2}\\]"
+  },
+  {
+    "objectID": "Notas/Aula00PlanoEnsino.html#cronograma",
+    "href": "Notas/Aula00PlanoEnsino.html#cronograma",
+    "title": "Plano de Ensino",
+    "section": "Cronograma",
+    "text": "Cronograma\n\n\n\n\n\n\n\nSemanas\nConteúdo\n\n\n\n\n1–2\nSenoides e fasores\n\n\n3–5\nRelações V-I em R, L, C; impedância e admitância\n\n\n6–7\nLeis de Kirchhoff; análise nodal e de malhas em CA\n\n\n8\nAvaliação 1\n\n\n9–10\nTeoremas de circuitos em CA (superposição, Thévenin, Norton, máxima transferência de potência)\n\n\n11–13\nPotência em CA (instantânea, média, complexa, fator de potência e correção)\n\n\n14\nAvaliação 2\n\n\n15–16\nRevisão e exercícios integradores\n\n\n\n\n\n\n\nDorf, Richard C., and James A. Svoboda. 2019. Introdução a Circuitos Elétricos. 9th ed. LTC.\n\n\nSadiku, Matthew N. O., and Charles K. Alexander. 2013. Fundamentos de Circuitos Elétricos. 5th ed. AMGH/Bookman."
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#por-que-corrente-alternada",
+    "href": "Notas/Aula01Senoides.html#por-que-corrente-alternada",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Por que Corrente Alternada?",
+    "text": "Por que Corrente Alternada?\n\n\n\nA geração e transmissão de energia elétrica é feita em corrente alternada (CA)\nA rede elétrica brasileira opera em 60 Hz\nTransformadores só funcionam em CA — permitem elevar/reduzir tensões com alta eficiência\nA análise em CA é fundamental para: motores, filtros, antenas, conversores de energia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nA elevação de tensão reduz a corrente na linha de transmissão e, com isso, as perdas por efeito Joule (\\(P = RI^2\\))."
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#o-sinal-senoidal",
+    "href": "Notas/Aula01Senoides.html#o-sinal-senoidal",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "O Sinal Senoidal",
+    "text": "O Sinal Senoidal\nA tensão senoidal é descrita por:\n\\[\\boxed{v(t) = V_m \\cos(\\omega t + \\phi)}\\]\nParâmetros fundamentais:\n\n\n\nSímbolo\nNome\nUnidade\nRelação\n\n\n\n\n\\(V_m\\)\nAmplitude (pico)\nV\n—\n\n\n\\(T\\)\nPeríodo\ns\n\\(T = \\dfrac{2\\pi}{\\omega}\\)\n\n\n\\(f\\)\nFrequência\nHz\n\\(f = \\dfrac{1}{T}\\)\n\n\n\\(\\omega\\)\nFreq. angular\nrad/s\n\\(\\omega = 2\\pi f\\)\n\n\n\\(\\phi\\)\nFase inicial\nrad ou °\n—\n\n\n\n\nConvenção: usamos \\(\\cos\\) como referência padrão. Senos podem ser convertidos: \\(\\sin(\\theta) = \\cos(\\theta - 90°)\\)"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#período-e-frequência",
+    "href": "Notas/Aula01Senoides.html#período-e-frequência",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Período e Frequência",
+    "text": "Período e Frequência\n\n\nO período \\(T\\) é o tempo de um ciclo completo.\nA frequência \\(f\\) é o número de ciclos por segundo:\n\\[f = \\frac{1}{T} \\qquad [\\text{Hz}]\\]\nA frequência angular relaciona-se com \\(f\\) por:\n\\[\\omega = 2\\pi f \\qquad [\\text{rad/s}]\\]\nRede elétrica brasileira: \\[f = 60 \\text{ Hz} \\implies T = 16{,}7 \\text{ ms} \\implies \\omega \\approx 377 \\text{ rad/s}\\]"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#fase-e-defasagem",
+    "href": "Notas/Aula01Senoides.html#fase-e-defasagem",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Fase e Defasagem",
+    "text": "Fase e Defasagem\n\n\nDois sinais com a mesma frequência podem ter fases diferentes:\n\\[v_1(t) = V_{m1}\\cos(\\omega t + \\phi_1)\\] \\[v_2(t) = V_{m2}\\cos(\\omega t + \\phi_2)\\]\n\nSe \\(\\phi_1 &gt; \\phi_2\\): \\(v_1\\) adianta \\(v_2\\) em \\((\\phi_1 - \\phi_2)\\)\nSe \\(\\phi_1 &lt; \\phi_2\\): \\(v_1\\) atrasa \\(v_2\\) em \\((\\phi_2 - \\phi_1)\\)\nSe \\(\\phi_1 = \\phi_2\\): sinais em fase\nSe \\(|\\phi_1 - \\phi_2| = 180°\\): sinais em oposição de fase"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#valor-eficaz-rms",
+    "href": "Notas/Aula01Senoides.html#valor-eficaz-rms",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Valor Eficaz (RMS)",
+    "text": "Valor Eficaz (RMS)\n\n\n\n\n\n\nDefinição\n\n\nO valor eficaz (ou RMS — Root Mean Square) de um sinal periódico é o valor de CC que dissiparia a mesma potência em um resistor.\n\n\n\nPara uma senoide \\(v(t) = V_m \\cos(\\omega t + \\phi)\\):\n\\[V_{rms} = \\sqrt{\\frac{1}{T}\\int_0^T v^2(t)\\,dt} = \\frac{V_m}{\\sqrt{2}}\\]\n\\[\\boxed{V_{rms} = \\frac{V_m}{\\sqrt{2}} \\approx 0{,}707\\, V_m}\\]\nExemplos práticos:\n\n\n\nAplicação\n\\(V_{rms}\\)\n\\(V_m\\)\n\n\n\n\nTomada residencial (Brasil)\n127 V ou 220 V\n180 V ou 311 V\n\n\nTransmissão de alta tensão\n500 kV\n707 kV"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#motivação-para-fasores",
+    "href": "Notas/Aula01Senoides.html#motivação-para-fasores",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Motivação para Fasores",
+    "text": "Motivação para Fasores\nA análise direta no domínio do tempo é trabalhosa. Exemplo: circuito RLC em série com excitação senoidal requer resolver equação diferencial:\n\\[L\\frac{di}{dt} + Ri + \\frac{1}{C}\\int i\\,dt = V_m\\cos(\\omega t)\\]\nSolução: usar fasores — representação complexa de sinais senoidais que transforma equações diferenciais em equações algébricas.\n\n\n\n\n\n\nIdeia central\n\n\nNo regime permanente senoidal, todas as tensões e correntes têm a mesma frequência \\(\\omega\\). Só precisamos rastrear amplitude e fase."
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#o-conceito-de-fasor",
+    "href": "Notas/Aula01Senoides.html#o-conceito-de-fasor",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "O Conceito de Fasor",
+    "text": "O Conceito de Fasor\nUm fasor é um número complexo que representa amplitude e fase de uma senoide.\nUsando a fórmula de Euler: \\(e^{j\\theta} = \\cos\\theta + j\\sin\\theta\\)\nA senoide \\(v(t) = V_m\\cos(\\omega t + \\phi)\\) é a parte real de:\n\\[v(t) = \\text{Re}\\left[V_m e^{j(\\omega t + \\phi)}\\right] = \\text{Re}\\left[V_m e^{j\\phi} \\cdot e^{j\\omega t}\\right]\\]\nO fasor de \\(v(t)\\) é o número complexo (sem o fator \\(e^{j\\omega t}\\)):\n\\[\\mathbf{V} = V_m e^{j\\phi} = V_m\\angle\\phi\\]\nou na forma retangular:\n\\[\\mathbf{V} = V_m\\cos\\phi + jV_m\\sin\\phi\\]"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#formas-de-representação-fasorial",
+    "href": "Notas/Aula01Senoides.html#formas-de-representação-fasorial",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Formas de Representação Fasorial",
+    "text": "Formas de Representação Fasorial\nUm fasor \\(\\mathbf{V} = V_m\\angle\\phi\\) pode ser escrito em três formas equivalentes:\n\n\n\nForma\nExpressão\nComponentes\n\n\n\n\nPolar\n\\(V_m\\angle\\phi\\)\nmódulo e ângulo\n\n\nExponencial\n\\(V_m e^{j\\phi}\\)\nmódulo e ângulo\n\n\nRetangular\n\\(a + jb\\)\nparte real e imaginária\n\n\n\nConversões:\n\\[V_m = \\sqrt{a^2 + b^2}, \\qquad \\phi = \\arctan\\!\\left(\\frac{b}{a}\\right)\\]\n\\[a = V_m\\cos\\phi, \\qquad b = V_m\\sin\\phi\\]\n\n\n\n\n\n\nAtenção ao quadrante\n\n\nUse \\(\\arctan2(b, a)\\) para obter o ângulo correto em todos os quadrantes."
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#transformação-tempo-fasor",
+    "href": "Notas/Aula01Senoides.html#transformação-tempo-fasor",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Transformação Tempo → Fasor",
+    "text": "Transformação Tempo → Fasor\nDomínio do tempo → Domínio fasorial:\n\\[v(t) = V_m\\cos(\\omega t + \\phi) \\quad\\longleftrightarrow\\quad \\mathbf{V} = V_m\\angle\\phi\\]\nExemplos:\n\n\n\nDomínio do tempo\nFasor\n\n\n\n\n\\(5\\cos(\\omega t + 30°)\\)\n\\(5\\angle 30°\\)\n\n\n\\(3\\cos(\\omega t - 45°)\\)\n\\(3\\angle{-45°}\\)\n\n\n\\(4\\sin(\\omega t + 60°)\\)\n\\(4\\angle{-30°}\\)\n\n\n\\(-2\\cos(\\omega t)\\)\n\\(2\\angle 180°\\)\n\n\n\n\nPara o último exemplo: \\(-\\cos(\\theta) = \\cos(\\theta \\pm 180°)\\)\n\n\nPara seno: \\(A\\sin(\\omega t + \\phi) = A\\cos(\\omega t + \\phi - 90°)\\)"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#derivada-e-integral-no-domínio-fasorial",
+    "href": "Notas/Aula01Senoides.html#derivada-e-integral-no-domínio-fasorial",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Derivada e Integral no Domínio Fasorial",
+    "text": "Derivada e Integral no Domínio Fasorial\nUma das grandes vantagens dos fasores:\n\n\n\nOperação no tempo\nEquivalente fasorial\n\n\n\n\n\\(\\dfrac{dv}{dt}\\)\n\\(j\\omega\\,\\mathbf{V}\\)\n\n\n\\(\\displaystyle\\int v\\,dt\\)\n\\(\\dfrac{\\mathbf{V}}{j\\omega}\\)\n\n\n\nVerificação: se \\(v(t) = V_m\\cos(\\omega t + \\phi)\\), então\n\\[\\frac{dv}{dt} = -\\omega V_m\\sin(\\omega t+\\phi) = \\omega V_m\\cos(\\omega t+\\phi+90°)\\]\nNo domínio fasorial: \\(j\\omega \\cdot V_m\\angle\\phi = \\omega V_m\\angle(\\phi+90°)\\) ✓"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#diagrama-fasorial",
+    "href": "Notas/Aula01Senoides.html#diagrama-fasorial",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Diagrama Fasorial",
+    "text": "Diagrama Fasorial\n\n\nO diagrama fasorial representa fasores no plano complexo:\n\nEixo real (\\(x\\)): parte real\nEixo imaginário (\\(y\\)): parte imaginária\nMódulo: comprimento da seta\nÂngulo: medido do eixo real positivo, sentido anti-horário\n\nÚtil para visualizar:\n\nDefasagem entre tensão e corrente\nAdição de fasores (lei dos paralelogramos)\nVerificação de resultados"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#adição-de-fasores",
+    "href": "Notas/Aula01Senoides.html#adição-de-fasores",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Adição de Fasores",
+    "text": "Adição de Fasores\nA adição de sinais senoidais de mesma frequência é feita algebricamente no domínio fasorial.\nExemplo: \\(v(t) = 12\\cos(\\omega t + 60°) + 8\\cos(\\omega t - 30°)\\)\n\n\nPasso 1: Converter para forma retangular:\n\\[\\mathbf{V}_1 = 12\\angle 60° = 6{,}00 + j10{,}39\\] \\[\\mathbf{V}_2 = 8\\angle{-30°} = 6{,}93 - j4{,}00\\]\nPasso 2: Somar:\n\\[\\mathbf{V} = \\mathbf{V}_1 + \\mathbf{V}_2 = 12{,}93 + j6{,}39\\]\nPasso 3: Converter para polar:\n\\[|\\mathbf{V}| = 14{,}43, \\qquad \\phi = 26{,}3°\\]\n\\[\\therefore\\quad v(t) = 14{,}43\\cos(\\omega t + 26{,}3°)\\]"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#resumo-domínio-do-tempo-vs.-fasorial",
+    "href": "Notas/Aula01Senoides.html#resumo-domínio-do-tempo-vs.-fasorial",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Resumo: Domínio do Tempo vs. Fasorial",
+    "text": "Resumo: Domínio do Tempo vs. Fasorial\n\n\n\n\n\n\n\n\n\nDomínio do Tempo\nDomínio Fasorial\n\n\n\n\nSinal\n\\(v(t) = V_m\\cos(\\omega t+\\phi)\\)\n\\(\\mathbf{V} = V_m\\angle\\phi\\)\n\n\nAdição\nSoma trigonométrica\nSoma de complexos\n\n\nDerivada\n\\(\\frac{dv}{dt}\\)\n\\(j\\omega\\mathbf{V}\\)\n\n\nIntegral\n\\(\\int v\\,dt\\)\n\\(\\frac{\\mathbf{V}}{j\\omega}\\)\n\n\nEquações\nDiferenciais\nAlgébricas\n\n\nFrequência\nExplícita em \\(\\omega t\\)\nImplícita (fixada)\n\n\n\n\n\n\n\n\n\nLimitação\n\n\nA análise fasorial só é válida para o regime permanente senoidal — quando a frequência é única e constante."
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#exemplo-completo",
+    "href": "Notas/Aula01Senoides.html#exemplo-completo",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Exemplo Completo",
+    "text": "Exemplo Completo\nProblema: Encontre a senoide equivalente \\(v(t) = v_1(t) + v_2(t)\\), onde:\n\\[v_1(t) = 20\\cos(377t + 45°) \\text{ V}, \\quad v_2(t) = 10\\cos(377t - 60°) \\text{ V}\\]\nSolução:\n\\[\\mathbf{V}_1 = 20\\angle 45° = 14{,}14 + j14{,}14\\]\n\\[\\mathbf{V}_2 = 10\\angle{-60°} = 5{,}00 - j8{,}66\\]\n\\[\\mathbf{V} = \\mathbf{V}_1 + \\mathbf{V}_2 = 19{,}14 + j5{,}48\\]\n\\[|\\mathbf{V}| = \\sqrt{19{,}14^2 + 5{,}48^2} = 19{,}91 \\text{ V}\\]\n\\[\\phi = \\arctan\\!\\left(\\frac{5{,}48}{19{,}14}\\right) = 16{,}0°\\]\n\\[\\boxed{v(t) = 19{,}91\\cos(377t + 16{,}0°) \\text{ V}}\\]"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#exercícios",
+    "href": "Notas/Aula01Senoides.html#exercícios",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Exercícios",
+    "text": "Exercícios\n\nConverta para a forma fasorial: \\(v(t) = 15\\sin(200t - 20°)\\) V.\nDois sinais \\(i_1(t) = 4\\cos(\\omega t + 15°)\\) A e \\(i_2(t) = 6\\cos(\\omega t - 75°)\\) A alimentam o mesmo nó. Determine \\(i(t) = i_1(t) + i_2(t)\\) usando fasores.\nCalcule o valor eficaz de \\(v(t) = 220\\sqrt{2}\\cos(377t)\\) V e identifique a aplicação prática desse valor.\nMostre, a partir da definição de fasor, que a integral de \\(v(t) = V_m\\cos(\\omega t+\\phi)\\) corresponde, no domínio fasorial, a \\(\\mathbf{V}/(j\\omega)\\)."
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#referências",
+    "href": "Notas/Aula01Senoides.html#referências",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Referências",
+    "text": "Referências"
   }
 ]

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,6 +10,9 @@
 
 <title>Circuitos Elétricos II</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -25,6 +28,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -32,21 +36,20 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-054f9ac2cfdb5bf803b445b878c7fe2c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-68fbfe70d10f7a52d4befa51dc25960c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -72,21 +75,85 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Circuitos Elétricos II</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Início</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-notas-de-aula" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Notas de Aula</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-notas-de-aula">    
+        <li>
+    <a class="dropdown-item" href="./Notas/Aula00PlanoEnsino.html">
+ <span class="dropdown-text">0 · Plano de Ensino</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Notas/Aula01Senoides.html">
+ <span class="dropdown-text">1 · Senoides e Fasores</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-avaliações" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Avaliações</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-avaliações">    
+        <li>
+    <a class="dropdown-item" href="./Avaliacoes/Avaliacao01Exemplo.html">
+ <span class="dropdown-text">1 · Avaliação Exemplo (modelo)</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Alternar modo de leitor">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#avaliações" id="toc-avaliações" class="nav-link active" data-scroll-target="#avaliações">Avaliações</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Circuitos Elétricos II</h1>
-<p class="subtitle lead">Circuitos em Corrente Alternada - CA</p>
+<p class="subtitle lead">Circuitos de Corrente Alternada (CA)</p>
 </div>
 
 
@@ -116,14 +183,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Notas de aula de Circuitos Elétricos II - Circuitos em Corrente Alternada:</p>
-<p>Turma de 2024 da FEE - CAMTUC - UFPA.</p>
+<!-- Portal do projeto. Cada item aponta para um deck em Notas/.
+     Duplique as linhas conforme adicionar aulas. -->
+<p>Notas de aula sobre análise de circuitos elétricos em regime permanente senoidal (CA): senoides, fasores, impedância e potência.</p>
 <ul>
-<li>Aula 0 - <a href="./Notas/CEII00PlanoEnsino.html">Plano de Ensino</a></li>
-<li>Aula 1 - <a href="./Notas/CEII01Senoides.html">Tensões e Correntes Senoidais</a></li>
+<li>Aula 0 - <a href="./Notas/Aula00PlanoEnsino.html">Plano de Ensino</a></li>
+<li>Aula 1 - <a href="./Notas/Aula01Senoides.html">Senoides e Fasores</a> <!-- * Aula 2 - [Título](Notas/Aula02Titulo.qmd) --></li>
+</ul>
+<section id="avaliações" class="level2">
+<h2 class="anchored" data-anchor-id="avaliações">Avaliações</h2>
+<ul>
+<li>Avaliação 1 - <a href="./Avaliacoes/Avaliacao01Exemplo.html">Avaliação Exemplo (modelo)</a> <!-- * Avaliação 2 - [Título](Avaliacoes/Avaliacao02Titulo.qmd) --></li>
 </ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -527,6 +601,19 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Circuitos Elétricos II</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Universidade Federal do Pará · Faculdade de Engenharia Elétrica</p>
+</div>
+    <div class="nav-footer-right">
+<p>Prof.&nbsp;Dr.&nbsp;Raphael Teixeira</p>
+</div>
+  </div>
+</footer>
 
 
 

@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://raphateixeira.github.io/CircuitosCA/Notas/CEII01Senoides.html</loc>
-    <lastmod>2026-06-14T13:54:41.558Z</lastmod>
+    <loc>https://raphateixeira.github.io/CircuitosCA/Avaliacoes/Avaliacao01Exemplo.html</loc>
+    <lastmod>2026-07-04T22:23:55.725Z</lastmod>
+  </url>
+  <url>
+    <loc>https://raphateixeira.github.io/CircuitosCA/Notas/Aula01Exemplo.html</loc>
+    <lastmod>2026-07-04T22:23:49.485Z</lastmod>
   </url>
   <url>
     <loc>https://raphateixeira.github.io/CircuitosCA/index.html</loc>
-    <lastmod>2026-06-14T13:57:36.030Z</lastmod>
+    <lastmod>2026-07-04T23:38:29.630Z</lastmod>
   </url>
   <url>
-    <loc>https://raphateixeira.github.io/CircuitosCA/Notas/CEII00PlanoEnsino.html</loc>
-    <lastmod>2026-06-14T13:47:07.106Z</lastmod>
+    <loc>https://raphateixeira.github.io/CircuitosCA/Notas/Aula00PlanoEnsino.html</loc>
+    <lastmod>2026-07-04T23:22:35.920Z</lastmod>
+  </url>
+  <url>
+    <loc>https://raphateixeira.github.io/CircuitosCA/Notas/Aula01Senoides.html</loc>
+    <lastmod>2026-07-04T23:37:55.326Z</lastmod>
   </url>
 </urlset>
