@@ -28,6 +28,202 @@
     "text": "Critérios de avaliação\n\n\n\nQuestão\nPeso\nCritério\n\n\n\n\n1\n0,0\ndescreva o que será avaliado\n\n\n2\n0,0\ndescreva o que será avaliado\n\n\n3\n0,0\ndescreva o que será avaliado"
   },
   {
+    "objectID": "Notas/Aula01Senoides.html#por-que-corrente-alternada",
+    "href": "Notas/Aula01Senoides.html#por-que-corrente-alternada",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Por que Corrente Alternada?",
+    "text": "Por que Corrente Alternada?\n\nA geração e transmissão de energia elétrica é feita em corrente alternada (CA)\nA rede elétrica brasileira opera em 60 Hz\nTransformadores só funcionam em CA — permitem elevar/reduzir tensões com alta eficiência\nA análise em CA é fundamental para: motores, filtros, antenas, conversores de energia\n\n\n\n\n\n\n\nNote\n\n\nA elevação de tensão reduz a corrente na linha de transmissão e, com isso, as perdas por efeito Joule (\\(P = RI^2\\))."
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#sistema-de-geração-transmissão-e-distribuição",
+    "href": "Notas/Aula01Senoides.html#sistema-de-geração-transmissão-e-distribuição",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Sistema de Geração, Transmissão e Distribuição",
+    "text": "Sistema de Geração, Transmissão e Distribuição"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#o-sinal-senoidal",
+    "href": "Notas/Aula01Senoides.html#o-sinal-senoidal",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "O Sinal Senoidal",
+    "text": "O Sinal Senoidal\nA tensão senoidal é descrita por:\n\\[\\boxed{v(t) = V_m \\cos(\\omega t + \\phi)}\\]\nParâmetros fundamentais:\n\n\n\nSímbolo\nNome\nUnidade\nRelação\n\n\n\n\n\\(V_m\\)\nAmplitude (pico)\nV\n—\n\n\n\\(T\\)\nPeríodo\ns\n\\(T = \\dfrac{2\\pi}{\\omega}\\)\n\n\n\\(f\\)\nFrequência\nHz\n\\(f = \\dfrac{1}{T}\\)\n\n\n\\(\\omega\\)\nFreq. angular\nrad/s\n\\(\\omega = 2\\pi f\\)\n\n\n\\(\\phi\\)\nFase inicial\nrad ou °\n—\n\n\n\n\nConvenção: usamos \\(\\cos\\) como referência padrão. Senos podem ser convertidos: \\(\\sin(\\theta) = \\cos(\\theta - 90°)\\)"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#período-e-frequência",
+    "href": "Notas/Aula01Senoides.html#período-e-frequência",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Período e Frequência",
+    "text": "Período e Frequência\nO período \\(T\\) é o tempo de um ciclo completo; a frequência \\(f\\) é o número de ciclos por segundo, e a frequência angular \\(\\omega\\) relaciona-se com \\(f\\) por:\n\\[f = \\frac{1}{T} \\quad [\\text{Hz}] \\qquad\\qquad \\omega = 2\\pi f \\quad [\\text{rad/s}]\\]\nRede elétrica brasileira: \\(f = 60 \\text{ Hz} \\implies T = 16{,}7 \\text{ ms} \\implies \\omega \\approx 377 \\text{ rad/s}\\)"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#fase-e-defasagem",
+    "href": "Notas/Aula01Senoides.html#fase-e-defasagem",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Fase e Defasagem",
+    "text": "Fase e Defasagem\nDois sinais com a mesma frequência podem ter fases diferentes:\n\\[v_1(t) = V_{m1}\\cos(\\omega t + \\phi_1) \\qquad\\qquad v_2(t) = V_{m2}\\cos(\\omega t + \\phi_2)\\]\n\nSe \\(\\phi_1 &gt; \\phi_2\\): \\(v_1\\) adianta \\(v_2\\) em \\((\\phi_1-\\phi_2)\\); se \\(\\phi_1 &lt; \\phi_2\\): \\(v_1\\) atrasa \\(v_2\\) em \\((\\phi_2-\\phi_1)\\)\nSe \\(\\phi_1 = \\phi_2\\): sinais em fase; se \\(|\\phi_1-\\phi_2| = 180°\\): sinais em oposição de fase"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#fase-e-defasagem-exemplo",
+    "href": "Notas/Aula01Senoides.html#fase-e-defasagem-exemplo",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Fase e Defasagem — Exemplo",
+    "text": "Fase e Defasagem — Exemplo\n\\[v_1(t) = \\cos(\\omega t + 45°) \\qquad\\qquad v_2(t) = \\cos(\\omega t - 45°)\\]"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#valor-eficaz-rms",
+    "href": "Notas/Aula01Senoides.html#valor-eficaz-rms",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Valor Eficaz (RMS)",
+    "text": "Valor Eficaz (RMS)\n\n\n\n\n\n\nDefinição\n\n\nO valor eficaz (ou RMS — Root Mean Square) de um sinal periódico é o valor de CC que dissiparia a mesma potência em um resistor.\n\n\n\nPara uma senoide \\(v(t) = V_m \\cos(\\omega t + \\phi)\\):\n\\[V_{rms} = \\sqrt{\\frac{1}{T}\\int_0^T v^2(t)\\,dt} = \\frac{V_m}{\\sqrt{2}} \\approx 0{,}707\\, V_m\\]\nExemplos práticos:\n\n\n\nAplicação\n\\(V_{rms}\\)\n\\(V_m\\)\n\n\n\n\nTomada residencial (Brasil)\n127 V ou 220 V\n180 V ou 311 V\n\n\nTransmissão de alta tensão\n500 kV\n707 kV"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#motivação-para-fasores",
+    "href": "Notas/Aula01Senoides.html#motivação-para-fasores",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Motivação para Fasores",
+    "text": "Motivação para Fasores\nA análise direta no domínio do tempo é trabalhosa. Exemplo: circuito RLC em série com excitação senoidal requer resolver equação diferencial:\n\\[L\\frac{di}{dt} + Ri + \\frac{1}{C}\\int i\\,dt = V_m\\cos(\\omega t)\\]\nSolução: usar fasores — representação complexa de sinais senoidais que transforma equações diferenciais em equações algébricas.\n\n\n\n\n\n\nIdeia central\n\n\nNo regime permanente senoidal, todas as tensões e correntes têm a mesma frequência \\(\\omega\\). Só precisamos rastrear amplitude e fase."
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#o-conceito-de-fasor",
+    "href": "Notas/Aula01Senoides.html#o-conceito-de-fasor",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "O Conceito de Fasor",
+    "text": "O Conceito de Fasor\nUm fasor é um número complexo que representa amplitude e fase de uma senoide.\nUsando a fórmula de Euler: \\(e^{j\\theta} = \\cos\\theta + j\\sin\\theta\\)\nA senoide \\(v(t) = V_m\\cos(\\omega t + \\phi)\\) é a parte real de:\n\\[v(t) = \\text{Re}\\left[V_m e^{j(\\omega t + \\phi)}\\right] = \\text{Re}\\left[V_m e^{j\\phi} \\cdot e^{j\\omega t}\\right]\\]\nO fasor de \\(v(t)\\) é o número complexo (sem o fator \\(e^{j\\omega t}\\)):\n\\[\\mathbf{V} = V_m e^{j\\phi} = V_m\\angle\\phi \\qquad \\text{ou, na forma retangular,} \\qquad \\mathbf{V} = V_m\\cos\\phi + jV_m\\sin\\phi\\]"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#formas-de-representação-fasorial",
+    "href": "Notas/Aula01Senoides.html#formas-de-representação-fasorial",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Formas de Representação Fasorial",
+    "text": "Formas de Representação Fasorial\nUm fasor \\(\\mathbf{V} = V_m\\angle\\phi\\) pode ser escrito em três formas equivalentes:\n\n\n\nForma\nExpressão\nComponentes\n\n\n\n\nPolar\n\\(V_m\\angle\\phi\\)\nmódulo e ângulo\n\n\nExponencial\n\\(V_m e^{j\\phi}\\)\nmódulo e ângulo\n\n\nRetangular\n\\(a + jb\\)\nparte real e imaginária\n\n\n\nConversões:\n\\[V_m = \\sqrt{a^2 + b^2}, \\qquad \\phi = \\arctan\\!\\left(\\frac{b}{a}\\right), \\qquad a = V_m\\cos\\phi, \\qquad b = V_m\\sin\\phi\\]\n\n\n\n\n\n\nAtenção ao quadrante\n\n\nUse \\(\\arctan2(b, a)\\) para obter o ângulo correto em todos os quadrantes."
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#transformação-tempo-fasor",
+    "href": "Notas/Aula01Senoides.html#transformação-tempo-fasor",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Transformação Tempo → Fasor",
+    "text": "Transformação Tempo → Fasor\nDomínio do tempo → Domínio fasorial:\n\\[v(t) = V_m\\cos(\\omega t + \\phi) \\quad\\longleftrightarrow\\quad \\mathbf{V} = V_m\\angle\\phi\\]\nExemplos:\n\n\n\nDomínio do tempo\nFasor\n\n\n\n\n\\(5\\cos(\\omega t + 30°)\\)\n\\(5\\angle 30°\\)\n\n\n\\(3\\cos(\\omega t - 45°)\\)\n\\(3\\angle{-45°}\\)\n\n\n\\(4\\sin(\\omega t + 60°)\\)\n\\(4\\angle{-30°}\\)\n\n\n\\(-2\\cos(\\omega t)\\)\n\\(2\\angle 180°\\)\n\n\n\n\nPara o último exemplo: \\(-\\cos(\\theta) = \\cos(\\theta \\pm 180°)\\). Para seno: \\(A\\sin(\\omega t + \\phi) = A\\cos(\\omega t + \\phi - 90°)\\)"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#derivada-e-integral-no-domínio-fasorial",
+    "href": "Notas/Aula01Senoides.html#derivada-e-integral-no-domínio-fasorial",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Derivada e Integral no Domínio Fasorial",
+    "text": "Derivada e Integral no Domínio Fasorial\nUma das grandes vantagens dos fasores:\n\n\n\nOperação no tempo\nEquivalente fasorial\n\n\n\n\n\\(\\dfrac{dv}{dt}\\)\n\\(j\\omega\\,\\mathbf{V}\\)\n\n\n\\(\\displaystyle\\int v\\,dt\\)\n\\(\\dfrac{\\mathbf{V}}{j\\omega}\\)\n\n\n\nVerificação: se \\(v(t) = V_m\\cos(\\omega t + \\phi)\\), então\n\\[\\frac{dv}{dt} = -\\omega V_m\\sin(\\omega t+\\phi) = \\omega V_m\\cos(\\omega t+\\phi+90°)\\]\nNo domínio fasorial: \\(j\\omega \\cdot V_m\\angle\\phi = \\omega V_m\\angle(\\phi+90°)\\) ✓"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#diagrama-fasorial",
+    "href": "Notas/Aula01Senoides.html#diagrama-fasorial",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Diagrama Fasorial",
+    "text": "Diagrama Fasorial\nO diagrama fasorial representa fasores no plano complexo:\n\nEixo real (\\(x\\)): parte real; eixo imaginário (\\(y\\)): parte imaginária\nMódulo: comprimento da seta; ângulo: medido do eixo real positivo, sentido anti-horário\n\nÚtil para visualizar: defasagem entre tensão e corrente, adição de fasores (lei dos paralelogramos) e verificação de resultados."
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#diagrama-fasorial-exemplo",
+    "href": "Notas/Aula01Senoides.html#diagrama-fasorial-exemplo",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Diagrama Fasorial — Exemplo",
+    "text": "Diagrama Fasorial — Exemplo\n\\[\\mathbf{V}_1 = 5\\angle 30^\\circ \\qquad\\qquad \\mathbf{V}_2 = 3\\angle{-45^\\circ}\\]"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#adição-de-fasores",
+    "href": "Notas/Aula01Senoides.html#adição-de-fasores",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Adição de Fasores",
+    "text": "Adição de Fasores\nA adição de sinais senoidais de mesma frequência é feita algebricamente no domínio fasorial.\nExemplo: \\(v(t) = 12\\cos(\\omega t + 60°) + 8\\cos(\\omega t - 30°)\\)\nPasso 1 — forma retangular: \\(\\mathbf{V}_1 = 12\\angle 60° = 6{,}00 + j10{,}39 \\qquad \\mathbf{V}_2 = 8\\angle{-30°} = 6{,}93 - j4{,}00\\)\nPasso 2 — somar: \\(\\mathbf{V} = \\mathbf{V}_1 + \\mathbf{V}_2 = 12{,}93 + j6{,}39\\)\nPasso 3 — forma polar: \\(|\\mathbf{V}| = 14{,}43, \\qquad \\phi = 26{,}3°\\)\n\\[\\therefore\\quad v(t) = 14{,}43\\cos(\\omega t + 26{,}3°)\\]"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#adição-de-fasores-diagrama",
+    "href": "Notas/Aula01Senoides.html#adição-de-fasores-diagrama",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Adição de Fasores — Diagrama",
+    "text": "Adição de Fasores — Diagrama"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#resumo-domínio-do-tempo-vs.-fasorial",
+    "href": "Notas/Aula01Senoides.html#resumo-domínio-do-tempo-vs.-fasorial",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Resumo: Domínio do Tempo vs. Fasorial",
+    "text": "Resumo: Domínio do Tempo vs. Fasorial\n\n\n\n\n\n\n\n\n\nDomínio do Tempo\nDomínio Fasorial\n\n\n\n\nSinal\n\\(v(t) = V_m\\cos(\\omega t+\\phi)\\)\n\\(\\mathbf{V} = V_m\\angle\\phi\\)\n\n\nAdição\nSoma trigonométrica\nSoma de complexos\n\n\nDerivada\n\\(\\frac{dv}{dt}\\)\n\\(j\\omega\\mathbf{V}\\)\n\n\nIntegral\n\\(\\int v\\,dt\\)\n\\(\\frac{\\mathbf{V}}{j\\omega}\\)\n\n\nEquações\nDiferenciais\nAlgébricas\n\n\nFrequência\nExplícita em \\(\\omega t\\)\nImplícita (fixada)\n\n\n\n\n\n\n\n\n\nLimitação\n\n\nA análise fasorial só é válida para o regime permanente senoidal — quando a frequência é única e constante."
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#exemplo-completo-12",
+    "href": "Notas/Aula01Senoides.html#exemplo-completo-12",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Exemplo Completo (1/2)",
+    "text": "Exemplo Completo (1/2)\nProblema: Encontre a senoide equivalente \\(v(t) = v_1(t) + v_2(t)\\), onde:\n\\[v_1(t) = 20\\cos(377t + 45°) \\text{ V}, \\quad v_2(t) = 10\\cos(377t - 60°) \\text{ V}\\]\nSolução:\n\\[\\mathbf{V}_1 = 20\\angle 45° = 14{,}14 + j14{,}14\\]\n\\[\\mathbf{V}_2 = 10\\angle{-60°} = 5{,}00 - j8{,}66\\]\n\\[\\mathbf{V} = \\mathbf{V}_1 + \\mathbf{V}_2 = 19{,}14 + j5{,}48\\]"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#exemplo-completo-22",
+    "href": "Notas/Aula01Senoides.html#exemplo-completo-22",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Exemplo Completo (2/2)",
+    "text": "Exemplo Completo (2/2)\nConvertendo \\(\\mathbf{V} = 19{,}14 + j5{,}48\\) para a forma polar:\n\\[|\\mathbf{V}| = \\sqrt{19{,}14^2 + 5{,}48^2} = 19{,}91 \\text{ V}\\]\n\\[\\phi = \\arctan\\!\\left(\\frac{5{,}48}{19{,}14}\\right) = 16{,}0°\\]\n\\[\\boxed{v(t) = 19{,}91\\cos(377t + 16{,}0°) \\text{ V}}\\]"
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#exercícios",
+    "href": "Notas/Aula01Senoides.html#exercícios",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Exercícios",
+    "text": "Exercícios\n\nConverta para a forma fasorial: \\(v(t) = 15\\sin(200t - 20°)\\) V.\nDois sinais \\(i_1(t) = 4\\cos(\\omega t + 15°)\\) A e \\(i_2(t) = 6\\cos(\\omega t - 75°)\\) A alimentam o mesmo nó. Determine \\(i(t) = i_1(t) + i_2(t)\\) usando fasores.\nCalcule o valor eficaz de \\(v(t) = 220\\sqrt{2}\\cos(377t)\\) V e identifique a aplicação prática desse valor.\nMostre, a partir da definição de fasor, que a integral de \\(v(t) = V_m\\cos(\\omega t+\\phi)\\) corresponde, no domínio fasorial, a \\(\\mathbf{V}/(j\\omega)\\)."
+  },
+  {
+    "objectID": "Notas/Aula01Senoides.html#referências",
+    "href": "Notas/Aula01Senoides.html#referências",
+    "title": "Tensões e Correntes Senoidais e Fasores",
+    "section": "Referências",
+    "text": "Referências"
+  },
+  {
+    "objectID": "Notas/Aula00PlanoEnsino.html#identificação",
+    "href": "Notas/Aula00PlanoEnsino.html#identificação",
+    "title": "Plano de Ensino",
+    "section": "Identificação",
+    "text": "Identificação\n\n\n\nCurso: Engenharia Elétrica\nCarga horária: 60 horas\nPré-requisitos: Circuitos Elétricos I\nFerramentas: números complexos, MATLAB/Octave ou Python (opcional)\n\n\nEmenta: Senoides e fasores. Relações tensão-corrente nos elementos passivos (resistor, indutor, capacitor) em regime permanente senoidal. Impedância e admitância. Leis de Kirchhoff e métodos sistemáticos de análise (nodal e de malhas) em circuitos CA. Teoremas de circuitos (superposição, Thévenin, Norton, máxima transferência de potência) aplicados a circuitos CA. Potência em corrente alternada: instantânea, média, reativa, aparente e complexa; fator de potência e sua correção."
+  },
+  {
+    "objectID": "Notas/Aula00PlanoEnsino.html#objetivos",
+    "href": "Notas/Aula00PlanoEnsino.html#objetivos",
+    "title": "Plano de Ensino",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nCapacitar o estudante a analisar circuitos elétricos lineares em regime permanente senoidal, utilizando a representação fasorial e o conceito de impedância.\nRepresentar sinais senoidais na forma fasorial e transitar entre os domínios do tempo e da frequência.\nDeterminar impedâncias e admitâncias de elementos R, L, C e de suas associações série/paralelo.\nAplicar leis de Kirchhoff e os métodos de análise nodal e de malhas em circuitos CA.\nAplicar os teoremas de circuitos (superposição, Thévenin, Norton, máxima transferência de potência) em regime CA.\nCalcular potências instantânea, média, reativa, aparente e complexa; determinar e corrigir o fator de potência de uma carga.\n\n\n\n\n\n\n\nNote\n\n\nCada unidade retoma, em regime CA, um conceito já visto em Circuitos Elétricos I para circuitos resistivos em regime contínuo (CC)."
+  },
+  {
+    "objectID": "Notas/Aula00PlanoEnsino.html#bibliografia",
+    "href": "Notas/Aula00PlanoEnsino.html#bibliografia",
+    "title": "Plano de Ensino",
+    "section": "Bibliografia",
+    "text": "Bibliografia\n\nSadiku & Alexander — Fundamentos de Circuitos Elétricos. 5ª ed. AMGH/Bookman (Sadiku and Alexander 2013).\nDorf & Svoboda — Introdução a Circuitos Elétricos. 9ª ed. LTC (Dorf and Svoboda 2019)."
+  },
+  {
+    "objectID": "Notas/Aula00PlanoEnsino.html#avaliação",
+    "href": "Notas/Aula00PlanoEnsino.html#avaliação",
+    "title": "Plano de Ensino",
+    "section": "Avaliação",
+    "text": "Avaliação\n\nAvaliação 1 — peso 5,0: prova individual e sem consulta, cobrindo senoides, fasores, impedância e leis circuitais em CA;\nAvaliação 2 — peso 5,0: prova individual e sem consulta, cobrindo teoremas de circuitos e potência em CA;\nListas de exercícios — atividade formativa (não somativa), uma por unidade, como preparação para as avaliações.\n\n\\[N_f = \\text{Avaliação 1} + \\text{Avaliação 2}\\]"
+  },
+  {
+    "objectID": "Notas/Aula00PlanoEnsino.html#cronograma",
+    "href": "Notas/Aula00PlanoEnsino.html#cronograma",
+    "title": "Plano de Ensino",
+    "section": "Cronograma",
+    "text": "Cronograma\n\n\n\n\n\n\n\nSemanas\nConteúdo\n\n\n\n\n1–2\nSenoides e fasores\n\n\n3–5\nRelações V-I em R, L, C; impedância e admitância\n\n\n6–7\nLeis de Kirchhoff; análise nodal e de malhas em CA\n\n\n8\nAvaliação 1\n\n\n9–10\nTeoremas de circuitos em CA (superposição, Thévenin, Norton, máxima transferência de potência)\n\n\n11–13\nPotência em CA (instantânea, média, complexa, fator de potência e correção)\n\n\n14\nAvaliação 2\n\n\n15–16\nRevisão e exercícios integradores\n\n\n\n\n\n\n\nDorf, Richard C., and James A. Svoboda. 2019. Introdução a Circuitos Elétricos. 9th ed. LTC.\n\n\nSadiku, Matthew N. O., and Charles K. Alexander. 2013. Fundamentos de Circuitos Elétricos. 5th ed. AMGH/Bookman."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Circuitos Elétricos II",
+    "section": "",
+    "text": "Notas de aula sobre análise de circuitos elétricos em regime permanente senoidal (CA): senoides, fasores, impedância e potência."
+  },
+  {
+    "objectID": "index.html#avaliações",
+    "href": "index.html#avaliações",
+    "title": "Circuitos Elétricos II",
+    "section": "Avaliações",
+    "text": "Avaliações\n\nAvaliação 1 - Avaliação Exemplo (modelo)"
+  },
+  {
     "objectID": "Notas/Aula01Exemplo.html#estrutura-de-um-slide",
     "href": "Notas/Aula01Exemplo.html#estrutura-de-um-slide",
     "title": "Título da Aula",
@@ -105,163 +301,142 @@
     "text": "Referências\n\n\nBoyce, William E., and Richard C. DiPrima. 2020. Equações Diferenciais Elementares e Problemas de Valores de Contorno. 11th ed. LTC.\n\n\nNewton, Isaac. 1687. “Philosophiæ Naturalis Principia Mathematica.” Royal Society."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Circuitos Elétricos II",
-    "section": "",
-    "text": "Notas de aula sobre análise de circuitos elétricos em regime permanente senoidal (CA): senoides, fasores, impedância e potência."
+    "objectID": "Notas/Aula02Impedancia.html#impedância-a-grande-ideia",
+    "href": "Notas/Aula02Impedancia.html#impedância-a-grande-ideia",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Impedância: A Grande Ideia",
+    "text": "Impedância: A Grande Ideia\nNo domínio fasorial, a relação tensão-corrente para qualquer elemento linear é:\n\\[\\mathbf{V} = \\mathbf{Z}\\,\\mathbf{I}\\]\nonde \\(\\mathbf{Z}\\) é a impedância — generalização da resistência para CA.\n\n\n\n\n\n\nAnalogia com a Lei de Ohm\n\n\nA impedância \\(\\mathbf{Z}\\) faz para circuitos CA o que a resistência \\(R\\) faz para CC. As mesmas técnicas de análise (divisor de tensão, nós, malhas, Thévenin…) se aplicam, mas com números complexos.\n\n\n\nForma geral: \\(\\mathbf{Z} = R + jX\\) \\([\\Omega]\\), onde \\(R\\) é a resistência (parte real) e \\(X\\) é a reatância (parte imaginária)."
   },
   {
-    "objectID": "index.html#avaliações",
-    "href": "index.html#avaliações",
-    "title": "Circuitos Elétricos II",
-    "section": "Avaliações",
-    "text": "Avaliações\n\nAvaliação 1 - Avaliação Exemplo (modelo)"
+    "objectID": "Notas/Aula02Impedancia.html#resistor-em-ca",
+    "href": "Notas/Aula02Impedancia.html#resistor-em-ca",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Resistor em CA",
+    "text": "Resistor em CA\n\nNo domínio do tempo: \\(v(t) = R\\,i(t)\\). Se \\(i(t) = I_m\\cos(\\omega t+\\theta)\\), então \\(v(t) = RI_m\\cos(\\omega t+\\theta) = V_m\\cos(\\omega t+\\theta)\\), com \\(V_m = RI_m\\) e mesma fase.\nNo domínio fasorial: \\(\\mathbf{V} = R\\,\\mathbf{I} \\implies \\mathbf{Z}_R = R\\)\n\nTensão e corrente em fase; impedância puramente real (\\(\\mathbf{Z}_R = R\\angle 0°\\)); dissipa energia."
   },
   {
-    "objectID": "Notas/Aula00PlanoEnsino.html#identificação",
-    "href": "Notas/Aula00PlanoEnsino.html#identificação",
-    "title": "Plano de Ensino",
-    "section": "Identificação",
-    "text": "Identificação\n\n\n\nCurso: Engenharia Elétrica\nCarga horária: 60 horas\nPré-requisitos: Circuitos Elétricos I\nFerramentas: números complexos, MATLAB/Octave ou Python (opcional)\n\n\nEmenta: Senoides e fasores. Relações tensão-corrente nos elementos passivos (resistor, indutor, capacitor) em regime permanente senoidal. Impedância e admitância. Leis de Kirchhoff e métodos sistemáticos de análise (nodal e de malhas) em circuitos CA. Teoremas de circuitos (superposição, Thévenin, Norton, máxima transferência de potência) aplicados a circuitos CA. Potência em corrente alternada: instantânea, média, reativa, aparente e complexa; fator de potência e sua correção."
+    "objectID": "Notas/Aula02Impedancia.html#resistor-em-ca-forma-de-onda",
+    "href": "Notas/Aula02Impedancia.html#resistor-em-ca-forma-de-onda",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Resistor em CA — Forma de Onda",
+    "text": "Resistor em CA — Forma de Onda"
   },
   {
-    "objectID": "Notas/Aula00PlanoEnsino.html#objetivos",
-    "href": "Notas/Aula00PlanoEnsino.html#objetivos",
-    "title": "Plano de Ensino",
-    "section": "Objetivos",
-    "text": "Objetivos\n\nCapacitar o estudante a analisar circuitos elétricos lineares em regime permanente senoidal, utilizando a representação fasorial e o conceito de impedância.\nRepresentar sinais senoidais na forma fasorial e transitar entre os domínios do tempo e da frequência.\nDeterminar impedâncias e admitâncias de elementos R, L, C e de suas associações série/paralelo.\nAplicar leis de Kirchhoff e os métodos de análise nodal e de malhas em circuitos CA.\nAplicar os teoremas de circuitos (superposição, Thévenin, Norton, máxima transferência de potência) em regime CA.\nCalcular potências instantânea, média, reativa, aparente e complexa; determinar e corrigir o fator de potência de uma carga.\n\n\n\n\n\n\n\nNote\n\n\nCada unidade retoma, em regime CA, um conceito já visto em Circuitos Elétricos I para circuitos resistivos em regime contínuo (CC)."
+    "objectID": "Notas/Aula02Impedancia.html#indutor-em-ca",
+    "href": "Notas/Aula02Impedancia.html#indutor-em-ca",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Indutor em CA",
+    "text": "Indutor em CA\n\nNo domínio do tempo: \\(v(t) = L\\dfrac{di(t)}{dt}\\). Se \\(i(t) = I_m\\cos(\\omega t+\\theta)\\), então \\(v(t) = \\omega L I_m\\cos(\\omega t+\\theta+90°)\\).\nNo domínio fasorial (usando \\(\\frac{d}{dt}\\to j\\omega\\)): \\(\\mathbf{V} = j\\omega L\\,\\mathbf{I} \\implies \\mathbf{Z}_L = j\\omega L = jX_L\\)\n\nTensão adianta a corrente em \\(90°\\) (“ELI”); reatância indutiva \\(X_L=\\omega L\\) cresce com a frequência; não dissipa energia."
   },
   {
-    "objectID": "Notas/Aula00PlanoEnsino.html#bibliografia",
-    "href": "Notas/Aula00PlanoEnsino.html#bibliografia",
-    "title": "Plano de Ensino",
-    "section": "Bibliografia",
-    "text": "Bibliografia\n\nSadiku & Alexander — Fundamentos de Circuitos Elétricos. 5ª ed. AMGH/Bookman (Sadiku and Alexander 2013).\nDorf & Svoboda — Introdução a Circuitos Elétricos. 9ª ed. LTC (Dorf and Svoboda 2019)."
+    "objectID": "Notas/Aula02Impedancia.html#indutor-em-ca-forma-de-onda",
+    "href": "Notas/Aula02Impedancia.html#indutor-em-ca-forma-de-onda",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Indutor em CA — Forma de Onda",
+    "text": "Indutor em CA — Forma de Onda"
   },
   {
-    "objectID": "Notas/Aula00PlanoEnsino.html#avaliação",
-    "href": "Notas/Aula00PlanoEnsino.html#avaliação",
-    "title": "Plano de Ensino",
-    "section": "Avaliação",
-    "text": "Avaliação\n\nAvaliação 1 — peso 5,0: prova individual e sem consulta, cobrindo senoides, fasores, impedância e leis circuitais em CA;\nAvaliação 2 — peso 5,0: prova individual e sem consulta, cobrindo teoremas de circuitos e potência em CA;\nListas de exercícios — atividade formativa (não somativa), uma por unidade, como preparação para as avaliações.\n\n\\[N_f = \\text{Avaliação 1} + \\text{Avaliação 2}\\]"
+    "objectID": "Notas/Aula02Impedancia.html#capacitor-em-ca",
+    "href": "Notas/Aula02Impedancia.html#capacitor-em-ca",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Capacitor em CA",
+    "text": "Capacitor em CA\n\nNo domínio do tempo: \\(i(t) = C\\dfrac{dv(t)}{dt}\\). Se \\(v(t) = V_m\\cos(\\omega t+\\phi)\\), então \\(i(t) = \\omega C V_m\\cos(\\omega t+\\phi+90°)\\).\nNo domínio fasorial: \\(\\mathbf{I} = j\\omega C\\,\\mathbf{V} \\implies \\mathbf{Z}_C = \\dfrac{1}{j\\omega C} = -jX_C\\)\n\nCorrente adianta a tensão em \\(90°\\) (“ICE”); reatância capacitiva \\(X_C=\\dfrac{1}{\\omega C}\\) decresce com a frequência; não dissipa energia."
   },
   {
-    "objectID": "Notas/Aula00PlanoEnsino.html#cronograma",
-    "href": "Notas/Aula00PlanoEnsino.html#cronograma",
-    "title": "Plano de Ensino",
-    "section": "Cronograma",
-    "text": "Cronograma\n\n\n\n\n\n\n\nSemanas\nConteúdo\n\n\n\n\n1–2\nSenoides e fasores\n\n\n3–5\nRelações V-I em R, L, C; impedância e admitância\n\n\n6–7\nLeis de Kirchhoff; análise nodal e de malhas em CA\n\n\n8\nAvaliação 1\n\n\n9–10\nTeoremas de circuitos em CA (superposição, Thévenin, Norton, máxima transferência de potência)\n\n\n11–13\nPotência em CA (instantânea, média, complexa, fator de potência e correção)\n\n\n14\nAvaliação 2\n\n\n15–16\nRevisão e exercícios integradores\n\n\n\n\n\n\n\nDorf, Richard C., and James A. Svoboda. 2019. Introdução a Circuitos Elétricos. 9th ed. LTC.\n\n\nSadiku, Matthew N. O., and Charles K. Alexander. 2013. Fundamentos de Circuitos Elétricos. 5th ed. AMGH/Bookman."
+    "objectID": "Notas/Aula02Impedancia.html#capacitor-em-ca-forma-de-onda",
+    "href": "Notas/Aula02Impedancia.html#capacitor-em-ca-forma-de-onda",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Capacitor em CA — Forma de Onda",
+    "text": "Capacitor em CA — Forma de Onda"
   },
   {
-    "objectID": "Notas/Aula01Senoides.html#por-que-corrente-alternada",
-    "href": "Notas/Aula01Senoides.html#por-que-corrente-alternada",
-    "title": "Tensões e Correntes Senoidais e Fasores",
-    "section": "Por que Corrente Alternada?",
-    "text": "Por que Corrente Alternada?\n\n\n\nA geração e transmissão de energia elétrica é feita em corrente alternada (CA)\nA rede elétrica brasileira opera em 60 Hz\nTransformadores só funcionam em CA — permitem elevar/reduzir tensões com alta eficiência\nA análise em CA é fundamental para: motores, filtros, antenas, conversores de energia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nA elevação de tensão reduz a corrente na linha de transmissão e, com isso, as perdas por efeito Joule (\\(P = RI^2\\))."
+    "objectID": "Notas/Aula02Impedancia.html#reatância-resistência-a-variações",
+    "href": "Notas/Aula02Impedancia.html#reatância-resistência-a-variações",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Reatância: Resistência a Variações",
+    "text": "Reatância: Resistência a Variações\nA reatância \\(X\\) mede a oposição ao fluxo de corrente CA devida ao armazenamento de energia:\n\n\n\n\n\n\n\n\n\nElemento\nReatância\nImpedância\nComportamento com \\(\\omega\\)\n\n\n\n\nResistor\n—\n\\(R\\)\nIndependente\n\n\nIndutor\n\\(X_L = \\omega L\\)\n\\(jX_L\\)\nCresce com \\(\\omega\\)\n\n\nCapacitor\n\\(X_C = \\dfrac{1}{\\omega C}\\)\n\\(-jX_C\\)\nDecresce com \\(\\omega\\)"
   },
   {
-    "objectID": "Notas/Aula01Senoides.html#o-sinal-senoidal",
-    "href": "Notas/Aula01Senoides.html#o-sinal-senoidal",
-    "title": "Tensões e Correntes Senoidais e Fasores",
-    "section": "O Sinal Senoidal",
-    "text": "O Sinal Senoidal\nA tensão senoidal é descrita por:\n\\[\\boxed{v(t) = V_m \\cos(\\omega t + \\phi)}\\]\nParâmetros fundamentais:\n\n\n\nSímbolo\nNome\nUnidade\nRelação\n\n\n\n\n\\(V_m\\)\nAmplitude (pico)\nV\n—\n\n\n\\(T\\)\nPeríodo\ns\n\\(T = \\dfrac{2\\pi}{\\omega}\\)\n\n\n\\(f\\)\nFrequência\nHz\n\\(f = \\dfrac{1}{T}\\)\n\n\n\\(\\omega\\)\nFreq. angular\nrad/s\n\\(\\omega = 2\\pi f\\)\n\n\n\\(\\phi\\)\nFase inicial\nrad ou °\n—\n\n\n\n\nConvenção: usamos \\(\\cos\\) como referência padrão. Senos podem ser convertidos: \\(\\sin(\\theta) = \\cos(\\theta - 90°)\\)"
+    "objectID": "Notas/Aula02Impedancia.html#reatância-gráficos",
+    "href": "Notas/Aula02Impedancia.html#reatância-gráficos",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Reatância — Gráficos",
+    "text": "Reatância — Gráficos"
   },
   {
-    "objectID": "Notas/Aula01Senoides.html#período-e-frequência",
-    "href": "Notas/Aula01Senoides.html#período-e-frequência",
-    "title": "Tensões e Correntes Senoidais e Fasores",
-    "section": "Período e Frequência",
-    "text": "Período e Frequência\n\n\nO período \\(T\\) é o tempo de um ciclo completo.\nA frequência \\(f\\) é o número de ciclos por segundo:\n\\[f = \\frac{1}{T} \\qquad [\\text{Hz}]\\]\nA frequência angular relaciona-se com \\(f\\) por:\n\\[\\omega = 2\\pi f \\qquad [\\text{rad/s}]\\]\nRede elétrica brasileira: \\[f = 60 \\text{ Hz} \\implies T = 16{,}7 \\text{ ms} \\implies \\omega \\approx 377 \\text{ rad/s}\\]"
+    "objectID": "Notas/Aula02Impedancia.html#o-mnemônico-eli-the-iceman",
+    "href": "Notas/Aula02Impedancia.html#o-mnemônico-eli-the-iceman",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "O Mnemônico ELI the ICEman",
+    "text": "O Mnemônico ELI the ICEman\n\n\n\n\n\n\nComo memorizar a defasagem\n\n\nELI: Em um indutor (L), a tensão (E) adianta a corrente (I). ICE: Em um capacitor (C), a corrente (I) adianta a tensão (E).\n\n\n\nIndutor — ELI: \\(\\mathbf{Z}_L = j\\omega L = \\omega L\\angle 90°\\), logo \\(\\mathbf{V}_L = j\\omega L\\,\\mathbf{I} \\implies \\phi_V = \\phi_I + 90°\\) — a tensão está \\(90°\\) à frente da corrente.\nCapacitor — ICE: \\(\\mathbf{Z}_C = \\dfrac{1}{j\\omega C} = \\dfrac{1}{\\omega C}\\angle{-90°}\\), logo \\(\\mathbf{V}_C = \\dfrac{\\mathbf{I}}{j\\omega C} \\implies \\phi_V = \\phi_I - 90°\\) — a tensão está \\(90°\\) atrás da corrente."
   },
   {
-    "objectID": "Notas/Aula01Senoides.html#fase-e-defasagem",
-    "href": "Notas/Aula01Senoides.html#fase-e-defasagem",
-    "title": "Tensões e Correntes Senoidais e Fasores",
-    "section": "Fase e Defasagem",
-    "text": "Fase e Defasagem\n\n\nDois sinais com a mesma frequência podem ter fases diferentes:\n\\[v_1(t) = V_{m1}\\cos(\\omega t + \\phi_1)\\] \\[v_2(t) = V_{m2}\\cos(\\omega t + \\phi_2)\\]\n\nSe \\(\\phi_1 &gt; \\phi_2\\): \\(v_1\\) adianta \\(v_2\\) em \\((\\phi_1 - \\phi_2)\\)\nSe \\(\\phi_1 &lt; \\phi_2\\): \\(v_1\\) atrasa \\(v_2\\) em \\((\\phi_2 - \\phi_1)\\)\nSe \\(\\phi_1 = \\phi_2\\): sinais em fase\nSe \\(|\\phi_1 - \\phi_2| = 180°\\): sinais em oposição de fase"
+    "objectID": "Notas/Aula02Impedancia.html#tabela-resumo-r-l-e-c-em-ca",
+    "href": "Notas/Aula02Impedancia.html#tabela-resumo-r-l-e-c-em-ca",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Tabela Resumo: R, L e C em CA",
+    "text": "Tabela Resumo: R, L e C em CA\n\n\n\n\n\n\n\n\n\n\nResistor\nIndutor\nCapacitor\n\n\n\n\nRelação v-i (tempo)\n\\(v = Ri\\)\n\\(v = L\\dfrac{di}{dt}\\)\n\\(i = C\\dfrac{dv}{dt}\\)\n\n\nImpedância\n\\(\\mathbf{Z} = R\\)\n\\(\\mathbf{Z} = j\\omega L\\)\n\\(\\mathbf{Z} = \\dfrac{1}{j\\omega C}\\)\n\n\nMódulo\n\\(R\\)\n\\(\\omega L\\)\n\\(\\dfrac{1}{\\omega C}\\)\n\n\nÂngulo\n\\(0°\\)\n\\(+90°\\)\n\\(-90°\\)\n\n\nDefasagem v-i\nEm fase\n\\(v\\) adianta \\(i\\) em 90°\n\\(i\\) adianta \\(v\\) em 90°\n\n\nPotência média\n\\(\\dfrac{V_m I_m}{2}\\)\n\\(0\\)\n\\(0\\)"
   },
   {
-    "objectID": "Notas/Aula01Senoides.html#valor-eficaz-rms",
-    "href": "Notas/Aula01Senoides.html#valor-eficaz-rms",
-    "title": "Tensões e Correntes Senoidais e Fasores",
-    "section": "Valor Eficaz (RMS)",
-    "text": "Valor Eficaz (RMS)\n\n\n\n\n\n\nDefinição\n\n\nO valor eficaz (ou RMS — Root Mean Square) de um sinal periódico é o valor de CC que dissiparia a mesma potência em um resistor.\n\n\n\nPara uma senoide \\(v(t) = V_m \\cos(\\omega t + \\phi)\\):\n\\[V_{rms} = \\sqrt{\\frac{1}{T}\\int_0^T v^2(t)\\,dt} = \\frac{V_m}{\\sqrt{2}}\\]\n\\[\\boxed{V_{rms} = \\frac{V_m}{\\sqrt{2}} \\approx 0{,}707\\, V_m}\\]\nExemplos práticos:\n\n\n\nAplicação\n\\(V_{rms}\\)\n\\(V_m\\)\n\n\n\n\nTomada residencial (Brasil)\n127 V ou 220 V\n180 V ou 311 V\n\n\nTransmissão de alta tensão\n500 kV\n707 kV"
+    "objectID": "Notas/Aula02Impedancia.html#admitância",
+    "href": "Notas/Aula02Impedancia.html#admitância",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Admitância",
+    "text": "Admitância\nA admitância \\(\\mathbf{Y}\\) é o inverso da impedância:\n\\[\\mathbf{Y} = \\frac{1}{\\mathbf{Z}} = G + jB \\qquad [\\text{S} = \\Omega^{-1}]\\]\n\\(G\\) é a condutância (parte real) e \\(B\\) é a susceptância (parte imaginária).\n\n\n\n\n\n\n\n\nElemento\nImpedância\nAdmitância\n\n\n\n\nResistor\n\\(R\\)\n\\(G = \\dfrac{1}{R}\\)\n\n\nIndutor\n\\(j\\omega L\\)\n\\(\\dfrac{1}{j\\omega L} = -\\dfrac{j}{\\omega L}\\)\n\n\nCapacitor\n\\(\\dfrac{1}{j\\omega C}\\)\n\\(j\\omega C\\)\n\n\n\n\n\n\n\n\n\nTip\n\n\nA admitância é conveniente para elementos em paralelo: \\(\\mathbf{Y}_{total} = \\mathbf{Y}_1 + \\mathbf{Y}_2 + \\cdots\\)"
   },
   {
-    "objectID": "Notas/Aula01Senoides.html#motivação-para-fasores",
-    "href": "Notas/Aula01Senoides.html#motivação-para-fasores",
-    "title": "Tensões e Correntes Senoidais e Fasores",
-    "section": "Motivação para Fasores",
-    "text": "Motivação para Fasores\nA análise direta no domínio do tempo é trabalhosa. Exemplo: circuito RLC em série com excitação senoidal requer resolver equação diferencial:\n\\[L\\frac{di}{dt} + Ri + \\frac{1}{C}\\int i\\,dt = V_m\\cos(\\omega t)\\]\nSolução: usar fasores — representação complexa de sinais senoidais que transforma equações diferenciais em equações algébricas.\n\n\n\n\n\n\nIdeia central\n\n\nNo regime permanente senoidal, todas as tensões e correntes têm a mesma frequência \\(\\omega\\). Só precisamos rastrear amplitude e fase."
+    "objectID": "Notas/Aula02Impedancia.html#impedâncias-em-série-e-paralelo",
+    "href": "Notas/Aula02Impedancia.html#impedâncias-em-série-e-paralelo",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Impedâncias em Série e Paralelo",
+    "text": "Impedâncias em Série e Paralelo\nAs mesmas regras do CC se aplicam no domínio fasorial:\nSérie: \\(\\mathbf{Z}_{eq} = \\mathbf{Z}_1 + \\mathbf{Z}_2 + \\cdots + \\mathbf{Z}_N \\qquad\\) Divisor de tensão: \\(\\mathbf{V}_k = \\dfrac{\\mathbf{Z}_k}{\\mathbf{Z}_{eq}}\\,\\mathbf{V}_{total}\\)\nParalelo: \\(\\dfrac{1}{\\mathbf{Z}_{eq}} = \\dfrac{1}{\\mathbf{Z}_1} + \\dfrac{1}{\\mathbf{Z}_2} + \\cdots \\qquad\\) Divisor de corrente (dois elementos): \\(\\mathbf{I}_1 = \\dfrac{\\mathbf{Z}_2}{\\mathbf{Z}_1+\\mathbf{Z}_2}\\,\\mathbf{I}_{total}\\)\n\n\n\n\n\n\nAtenção\n\n\nImpedâncias são números complexos — as operações devem ser feitas com álgebra complexa, não com módulos diretamente."
   },
   {
-    "objectID": "Notas/Aula01Senoides.html#o-conceito-de-fasor",
-    "href": "Notas/Aula01Senoides.html#o-conceito-de-fasor",
-    "title": "Tensões e Correntes Senoidais e Fasores",
-    "section": "O Conceito de Fasor",
-    "text": "O Conceito de Fasor\nUm fasor é um número complexo que representa amplitude e fase de uma senoide.\nUsando a fórmula de Euler: \\(e^{j\\theta} = \\cos\\theta + j\\sin\\theta\\)\nA senoide \\(v(t) = V_m\\cos(\\omega t + \\phi)\\) é a parte real de:\n\\[v(t) = \\text{Re}\\left[V_m e^{j(\\omega t + \\phi)}\\right] = \\text{Re}\\left[V_m e^{j\\phi} \\cdot e^{j\\omega t}\\right]\\]\nO fasor de \\(v(t)\\) é o número complexo (sem o fator \\(e^{j\\omega t}\\)):\n\\[\\mathbf{V} = V_m e^{j\\phi} = V_m\\angle\\phi\\]\nou na forma retangular:\n\\[\\mathbf{V} = V_m\\cos\\phi + jV_m\\sin\\phi\\]"
+    "objectID": "Notas/Aula02Impedancia.html#exemplo-1-indutor-em-ca",
+    "href": "Notas/Aula02Impedancia.html#exemplo-1-indutor-em-ca",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Exemplo 1: Indutor em CA",
+    "text": "Exemplo 1: Indutor em CA\nProblema: Um indutor de \\(L = 10\\text{ mH}\\) tem tensão \\(v(t) = 50\\cos(2000t + 30°)\\) V. Encontre a corrente \\(i(t)\\).\nSolução:\n\nFasor da tensão: \\(\\mathbf{V} = 50\\angle 30°\\) V\nImpedância do indutor: \\(\\mathbf{Z}_L = j\\omega L = j(2000)(0{,}01) = j20\\ \\Omega = 20\\angle 90°\\ \\Omega\\)\nCorrente fasorial: \\(\\mathbf{I} = \\dfrac{\\mathbf{V}}{\\mathbf{Z}_L} = \\dfrac{50\\angle 30°}{20\\angle 90°} = 2{,}5\\angle{-60°}\\ \\text{A}\\)\n\n\\[\\boxed{i(t) = 2{,}5\\cos(2000t - 60°)\\ \\text{A}}\\]\n\nA corrente atrasa a tensão em \\(90°\\), como esperado para um indutor."
   },
   {
-    "objectID": "Notas/Aula01Senoides.html#formas-de-representação-fasorial",
-    "href": "Notas/Aula01Senoides.html#formas-de-representação-fasorial",
-    "title": "Tensões e Correntes Senoidais e Fasores",
-    "section": "Formas de Representação Fasorial",
-    "text": "Formas de Representação Fasorial\nUm fasor \\(\\mathbf{V} = V_m\\angle\\phi\\) pode ser escrito em três formas equivalentes:\n\n\n\nForma\nExpressão\nComponentes\n\n\n\n\nPolar\n\\(V_m\\angle\\phi\\)\nmódulo e ângulo\n\n\nExponencial\n\\(V_m e^{j\\phi}\\)\nmódulo e ângulo\n\n\nRetangular\n\\(a + jb\\)\nparte real e imaginária\n\n\n\nConversões:\n\\[V_m = \\sqrt{a^2 + b^2}, \\qquad \\phi = \\arctan\\!\\left(\\frac{b}{a}\\right)\\]\n\\[a = V_m\\cos\\phi, \\qquad b = V_m\\sin\\phi\\]\n\n\n\n\n\n\nAtenção ao quadrante\n\n\nUse \\(\\arctan2(b, a)\\) para obter o ângulo correto em todos os quadrantes."
+    "objectID": "Notas/Aula02Impedancia.html#exemplo-2-capacitor-em-ca",
+    "href": "Notas/Aula02Impedancia.html#exemplo-2-capacitor-em-ca",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Exemplo 2: Capacitor em CA",
+    "text": "Exemplo 2: Capacitor em CA\nProblema: Um capacitor de \\(C = 100\\,\\mu\\text{F}\\) tem corrente \\(i(t) = 8\\cos(200t + 15°)\\) mA. Encontre a tensão \\(v(t)\\).\nSolução:\n\nFasor da corrente: \\(\\mathbf{I} = 8\\angle 15°\\) mA\nImpedância do capacitor: \\(\\mathbf{Z}_C = \\dfrac{1}{j\\omega C} = \\dfrac{1}{j(200)(100\\times10^{-6})} = -j50\\ \\Omega = 50\\angle{-90°}\\ \\Omega\\)\nTensão fasorial: \\(\\mathbf{V} = \\mathbf{Z}_C\\,\\mathbf{I} = (50\\angle{-90°})(8\\times10^{-3}\\angle 15°) = 0{,}4\\angle{-75°}\\ \\text{V}\\)\n\n\\[\\boxed{v(t) = 0{,}4\\cos(200t - 75°)\\ \\text{V}}\\]\n\nA tensão atrasa a corrente em \\(90°\\), como esperado para um capacitor."
   },
   {
-    "objectID": "Notas/Aula01Senoides.html#transformação-tempo-fasor",
-    "href": "Notas/Aula01Senoides.html#transformação-tempo-fasor",
-    "title": "Tensões e Correntes Senoidais e Fasores",
-    "section": "Transformação Tempo → Fasor",
-    "text": "Transformação Tempo → Fasor\nDomínio do tempo → Domínio fasorial:\n\\[v(t) = V_m\\cos(\\omega t + \\phi) \\quad\\longleftrightarrow\\quad \\mathbf{V} = V_m\\angle\\phi\\]\nExemplos:\n\n\n\nDomínio do tempo\nFasor\n\n\n\n\n\\(5\\cos(\\omega t + 30°)\\)\n\\(5\\angle 30°\\)\n\n\n\\(3\\cos(\\omega t - 45°)\\)\n\\(3\\angle{-45°}\\)\n\n\n\\(4\\sin(\\omega t + 60°)\\)\n\\(4\\angle{-30°}\\)\n\n\n\\(-2\\cos(\\omega t)\\)\n\\(2\\angle 180°\\)\n\n\n\n\nPara o último exemplo: \\(-\\cos(\\theta) = \\cos(\\theta \\pm 180°)\\)\n\n\nPara seno: \\(A\\sin(\\omega t + \\phi) = A\\cos(\\omega t + \\phi - 90°)\\)"
+    "objectID": "Notas/Aula02Impedancia.html#exemplo-3-circuito-rl-série",
+    "href": "Notas/Aula02Impedancia.html#exemplo-3-circuito-rl-série",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Exemplo 3: Circuito RL Série",
+    "text": "Exemplo 3: Circuito RL Série\nProblema: Circuito com \\(R = 3\\,\\Omega\\) e \\(L = 4\\text{ mH}\\) em série, alimentado por \\(v_s(t) = 10\\cos(500t)\\) V. Encontre a corrente e as tensões em cada elemento."
   },
   {
-    "objectID": "Notas/Aula01Senoides.html#derivada-e-integral-no-domínio-fasorial",
-    "href": "Notas/Aula01Senoides.html#derivada-e-integral-no-domínio-fasorial",
-    "title": "Tensões e Correntes Senoidais e Fasores",
-    "section": "Derivada e Integral no Domínio Fasorial",
-    "text": "Derivada e Integral no Domínio Fasorial\nUma das grandes vantagens dos fasores:\n\n\n\nOperação no tempo\nEquivalente fasorial\n\n\n\n\n\\(\\dfrac{dv}{dt}\\)\n\\(j\\omega\\,\\mathbf{V}\\)\n\n\n\\(\\displaystyle\\int v\\,dt\\)\n\\(\\dfrac{\\mathbf{V}}{j\\omega}\\)\n\n\n\nVerificação: se \\(v(t) = V_m\\cos(\\omega t + \\phi)\\), então\n\\[\\frac{dv}{dt} = -\\omega V_m\\sin(\\omega t+\\phi) = \\omega V_m\\cos(\\omega t+\\phi+90°)\\]\nNo domínio fasorial: \\(j\\omega \\cdot V_m\\angle\\phi = \\omega V_m\\angle(\\phi+90°)\\) ✓"
+    "objectID": "Notas/Aula02Impedancia.html#exemplo-3-solução-12",
+    "href": "Notas/Aula02Impedancia.html#exemplo-3-solução-12",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Exemplo 3 — Solução (1/2)",
+    "text": "Exemplo 3 — Solução (1/2)\n\\[\\mathbf{Z}_{RL} = R + j\\omega L = 3 + j(500)(0{,}004) = 3 + j2\\ \\Omega\\]\n\\[|\\mathbf{Z}| = \\sqrt{3^2+2^2} = \\sqrt{13} \\approx 3{,}61\\ \\Omega, \\qquad \\phi = \\arctan\\!\\left(\\frac{2}{3}\\right) \\approx 33{,}7°\\]\n\\[\\mathbf{I} = \\frac{\\mathbf{V}_s}{\\mathbf{Z}} = \\frac{10\\angle 0°}{3{,}61\\angle 33{,}7°} = 2{,}77\\angle{-33{,}7°}\\ \\text{A}\\]"
   },
   {
-    "objectID": "Notas/Aula01Senoides.html#diagrama-fasorial",
-    "href": "Notas/Aula01Senoides.html#diagrama-fasorial",
-    "title": "Tensões e Correntes Senoidais e Fasores",
-    "section": "Diagrama Fasorial",
-    "text": "Diagrama Fasorial\n\n\nO diagrama fasorial representa fasores no plano complexo:\n\nEixo real (\\(x\\)): parte real\nEixo imaginário (\\(y\\)): parte imaginária\nMódulo: comprimento da seta\nÂngulo: medido do eixo real positivo, sentido anti-horário\n\nÚtil para visualizar:\n\nDefasagem entre tensão e corrente\nAdição de fasores (lei dos paralelogramos)\nVerificação de resultados"
+    "objectID": "Notas/Aula02Impedancia.html#exemplo-3-solução-22",
+    "href": "Notas/Aula02Impedancia.html#exemplo-3-solução-22",
+    "title": "Relações Tensão-Corrente em CA",
+    "section": "Exemplo 3 — Solução (2/2)",
+    "text": "Exemplo 3 — Solução (2/2)\n\\[\\mathbf{V}_R = R\\,\\mathbf{I} = 3(2{,}77\\angle{-33{,}7°}) = 8{,}31\\angle{-33{,}7°}\\ \\text{V}\\]\n\\[\\mathbf{V}_L = j\\omega L\\,\\mathbf{I} = (2\\angle 90°)(2{,}77\\angle{-33{,}7°}) = 5{,}54\\angle 56{,}3°\\ \\text{V}\\]\n\\[\\boxed{i(t) = 2{,}77\\cos(500t-33{,}7°)\\ \\text{A}}\\]"
   },
   {
-    "objectID": "Notas/Aula01Senoides.html#adição-de-fasores",
-    "href": "Notas/Aula01Senoides.html#adição-de-fasores",
-    "title": "Tensões e Correntes Senoidais e Fasores",
-    "section": "Adição de Fasores",
-    "text": "Adição de Fasores\nA adição de sinais senoidais de mesma frequência é feita algebricamente no domínio fasorial.\nExemplo: \\(v(t) = 12\\cos(\\omega t + 60°) + 8\\cos(\\omega t - 30°)\\)\n\n\nPasso 1: Converter para forma retangular:\n\\[\\mathbf{V}_1 = 12\\angle 60° = 6{,}00 + j10{,}39\\] \\[\\mathbf{V}_2 = 8\\angle{-30°} = 6{,}93 - j4{,}00\\]\nPasso 2: Somar:\n\\[\\mathbf{V} = \\mathbf{V}_1 + \\mathbf{V}_2 = 12{,}93 + j6{,}39\\]\nPasso 3: Converter para polar:\n\\[|\\mathbf{V}| = 14{,}43, \\qquad \\phi = 26{,}3°\\]\n\\[\\therefore\\quad v(t) = 14{,}43\\cos(\\omega t + 26{,}3°)\\]"
-  },
-  {
-    "objectID": "Notas/Aula01Senoides.html#resumo-domínio-do-tempo-vs.-fasorial",
-    "href": "Notas/Aula01Senoides.html#resumo-domínio-do-tempo-vs.-fasorial",
-    "title": "Tensões e Correntes Senoidais e Fasores",
-    "section": "Resumo: Domínio do Tempo vs. Fasorial",
-    "text": "Resumo: Domínio do Tempo vs. Fasorial\n\n\n\n\n\n\n\n\n\nDomínio do Tempo\nDomínio Fasorial\n\n\n\n\nSinal\n\\(v(t) = V_m\\cos(\\omega t+\\phi)\\)\n\\(\\mathbf{V} = V_m\\angle\\phi\\)\n\n\nAdição\nSoma trigonométrica\nSoma de complexos\n\n\nDerivada\n\\(\\frac{dv}{dt}\\)\n\\(j\\omega\\mathbf{V}\\)\n\n\nIntegral\n\\(\\int v\\,dt\\)\n\\(\\frac{\\mathbf{V}}{j\\omega}\\)\n\n\nEquações\nDiferenciais\nAlgébricas\n\n\nFrequência\nExplícita em \\(\\omega t\\)\nImplícita (fixada)\n\n\n\n\n\n\n\n\n\nLimitação\n\n\nA análise fasorial só é válida para o regime permanente senoidal — quando a frequência é única e constante."
-  },
-  {
-    "objectID": "Notas/Aula01Senoides.html#exemplo-completo",
-    "href": "Notas/Aula01Senoides.html#exemplo-completo",
-    "title": "Tensões e Correntes Senoidais e Fasores",
-    "section": "Exemplo Completo",
-    "text": "Exemplo Completo\nProblema: Encontre a senoide equivalente \\(v(t) = v_1(t) + v_2(t)\\), onde:\n\\[v_1(t) = 20\\cos(377t + 45°) \\text{ V}, \\quad v_2(t) = 10\\cos(377t - 60°) \\text{ V}\\]\nSolução:\n\\[\\mathbf{V}_1 = 20\\angle 45° = 14{,}14 + j14{,}14\\]\n\\[\\mathbf{V}_2 = 10\\angle{-60°} = 5{,}00 - j8{,}66\\]\n\\[\\mathbf{V} = \\mathbf{V}_1 + \\mathbf{V}_2 = 19{,}14 + j5{,}48\\]\n\\[|\\mathbf{V}| = \\sqrt{19{,}14^2 + 5{,}48^2} = 19{,}91 \\text{ V}\\]\n\\[\\phi = \\arctan\\!\\left(\\frac{5{,}48}{19{,}14}\\right) = 16{,}0°\\]\n\\[\\boxed{v(t) = 19{,}91\\cos(377t + 16{,}0°) \\text{ V}}\\]"
-  },
-  {
-    "objectID": "Notas/Aula01Senoides.html#exercícios",
-    "href": "Notas/Aula01Senoides.html#exercícios",
-    "title": "Tensões e Correntes Senoidais e Fasores",
+    "objectID": "Notas/Aula02Impedancia.html#exercícios",
+    "href": "Notas/Aula02Impedancia.html#exercícios",
+    "title": "Relações Tensão-Corrente em CA",
     "section": "Exercícios",
-    "text": "Exercícios\n\nConverta para a forma fasorial: \\(v(t) = 15\\sin(200t - 20°)\\) V.\nDois sinais \\(i_1(t) = 4\\cos(\\omega t + 15°)\\) A e \\(i_2(t) = 6\\cos(\\omega t - 75°)\\) A alimentam o mesmo nó. Determine \\(i(t) = i_1(t) + i_2(t)\\) usando fasores.\nCalcule o valor eficaz de \\(v(t) = 220\\sqrt{2}\\cos(377t)\\) V e identifique a aplicação prática desse valor.\nMostre, a partir da definição de fasor, que a integral de \\(v(t) = V_m\\cos(\\omega t+\\phi)\\) corresponde, no domínio fasorial, a \\(\\mathbf{V}/(j\\omega)\\)."
+    "text": "Exercícios\n\nUm resistor de \\(R = 100\\,\\Omega\\) tem corrente \\(i(t) = 2\\cos(1000t)\\) A. Encontre \\(v(t)\\) e a impedância \\(\\mathbf{Z}_R\\).\nUm indutor de \\(L = 50\\) mH opera em \\(\\omega = 377\\) rad/s. Calcule \\(X_L\\) e \\(\\mathbf{Z}_L\\).\nUm capacitor de \\(C = 220\\,\\mu\\text{F}\\) opera em \\(f = 60\\) Hz. Calcule \\(X_C\\) e \\(\\mathbf{Z}_C\\).\nPara o circuito RL do Exemplo 3, recalcule \\(\\mathbf{I}\\), \\(\\mathbf{V}_R\\) e \\(\\mathbf{V}_L\\) se a frequência dobrar (\\(\\omega = 1000\\) rad/s).\nDois elementos com \\(\\mathbf{Z}_1 = 4+j3\\ \\Omega\\) e \\(\\mathbf{Z}_2 = 2-j2\\ \\Omega\\) estão em paralelo. Calcule \\(\\mathbf{Z}_{eq}\\) usando admitâncias."
   },
   {
-    "objectID": "Notas/Aula01Senoides.html#referências",
-    "href": "Notas/Aula01Senoides.html#referências",
-    "title": "Tensões e Correntes Senoidais e Fasores",
+    "objectID": "Notas/Aula02Impedancia.html#referências",
+    "href": "Notas/Aula02Impedancia.html#referências",
+    "title": "Relações Tensão-Corrente em CA",
     "section": "Referências",
     "text": "Referências"
   }
